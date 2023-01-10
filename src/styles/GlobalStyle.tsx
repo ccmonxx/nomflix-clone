@@ -8,11 +8,13 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   body {
-    background: ${(props) => props.theme.white.darker};
+    background: ${(props) => props.theme.black.lighter};
     color: black;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     line-height: 1.2;
+    height: 2000px;
+    
   }
   a {
     text-decoration: none;
